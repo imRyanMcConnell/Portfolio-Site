@@ -4,4 +4,4 @@
 2. NEED LOGO FOR TOP RIGHT CORNER TO ACCESS HOME
 
 3. Include a color changer that changes the colors of the website since I can't decide what's best 
-4. Need animations to match header animation
+4. Need animations to match header animation   
