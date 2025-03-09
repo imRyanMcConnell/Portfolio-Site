@@ -15,7 +15,12 @@
 }
 
 body {
-    background-color: #F4F4F9;
+    /* background-color: #F4F4F9; */
+    background-image: url("/Ryan_Portfolio/assets/site-wallpaper.jpg");
+    background-size: cover; /* Optional: makes the background cover the entire element */
+    background-position: center; /* Optional: centers the background image */
+    background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+
     padding: 20px;
     color: #2E382E;
     font-family: 'Quarion2', sans-serif;
