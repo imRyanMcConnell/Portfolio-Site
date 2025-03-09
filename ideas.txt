@@ -1,0 +1,7 @@
+
+
+1. MAIN CORE OF WEBSITE WILL BE SWIPING RIGHT INSTEAD OF DOWN, SAME PAGE BUT SECTIONS WILL FACDE TRANSITION OUT FROM LEFT TO RIGHT AND VISE VERSA
+2. NEED LOGO FOR TOP RIGHT CORNER TO ACCESS HOME
+
+3. Include a color changer that changes the colors of the website since I can't decide what's best 
+4. Need animations to match header animation

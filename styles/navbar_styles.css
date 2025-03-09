@@ -1,0 +1,45 @@
+ /* Social Navbar */
+ .social-navbar {
+    display: flex;
+    justify-content: flex-end; /* Push icons to the right */
+    gap: 15px;
+    background: transparent;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.social-navbar a img {
+    width: 24px;  /* Adjust size */
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-navbar a img:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+}
+
+/* Bottom Navbar Styling */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.bottom-nav button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+.bottom-nav button:hover {
+    color: #9883E5;
+    transform: scale(1.2); /* Slight zoom effect */
+}

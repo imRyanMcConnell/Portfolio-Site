@@ -1,0 +1,76 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-width: 100vw;
+    background-color: #f4f4f9;
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #9883E5;
+}
+
+.experience-timeline {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;  /* Ensures all cards stretch to the same height */
+    width: 80%;
+}
+
+
+.experience-card {
+    flex: 1; /* Allows cards to take equal space */
+    /* min-height: 180px; */
+    min-height: 350px;
+
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures even spacing inside the card */
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #9883E5;
+}
+
+.experience-card h4 {
+    font-size: 1.1rem;
+    color: #2E382E;
+    margin-bottom: 5px;
+}
+
+.experience-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.experience-card h3, 
+.experience-card h4, 
+.experience-card p {
+    flex-grow: 1; /* Ensures text elements distribute evenly */
+}
+
+.experience-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 5px;
+}

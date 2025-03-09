@@ -1,0 +1,22 @@
+/* Bold */
+@font-face {
+    font-family: 'Quarion';
+    src: url('/Ryan_Portfolio/assets/fonts/Quarion.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Quarion2';
+    src: url('/Ryan_Portfolio/assets/fonts/Quarion2.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #F4F4F9;
+    padding: 20px;
+    color: #2E382E;
+    font-family: 'Quarion2', sans-serif;
+}
